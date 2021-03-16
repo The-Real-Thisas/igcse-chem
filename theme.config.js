@@ -1,5 +1,6 @@
 export default {
   repository: 'https://github.com/The-Real-Thisas/igcse-chem',
+  docsRepository: 'https://github.com/The-Real-Thisas/igcse-chem',
   titleSuffix: ' – IGCSE Chem',
   logo: (
     <>
@@ -38,6 +39,6 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditOnGitHubLink: false,
+  footerEditOnGitHubLink: true,
   footerText: <>MIT {new Date().getFullYear()} © Thisas.</>
 }
